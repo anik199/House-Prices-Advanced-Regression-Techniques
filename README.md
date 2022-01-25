@@ -1,2 +1,2 @@
 # House-Prices-Advanced-Regression-Techniques
-## Prediction Score 0.12764
+## Prediction Score: Mean Squard Error 0.12764
