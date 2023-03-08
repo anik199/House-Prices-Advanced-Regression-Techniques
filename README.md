@@ -83,6 +83,18 @@ To use the code, the following steps can be taken:
 
 The final model achieved an RMSE score of 0.12764 on the test dataset, which is one of the best scores achieved in the Kaggle House Prices competition.
 
-## Credits
 
-The implementation of this project is based on the work of Anik Kumar, whose Kaggle notebook can be found [here](https://www.kaggle.com/code/anikkumar/house-price-advanced-pipeline-rmse-0-12764). The code was adapted and modified to suit the needs of this project.
+
+# House Price Prediction using Advanced Pipeline
+
+This project is focused on predicting the sale price of houses using advanced pipeline techniques. We use a dataset of housing prices from Kaggle, which contains various features such as number of rooms, square footage, and location. The goal is to develop a regression model that can accurately predict the sale price of a house.
+
+The pipeline includes:
+
+1. **Data cleaning and pre-processing** - handling missing data, removing outliers, and encoding categorical variables.
+2. **Feature engineering** - creating new features from existing ones, transforming variables to follow a normal distribution, and performing feature scaling.
+3. **Model selection and training** - evaluating several regression models, tuning hyperparameters, and selecting the best performing model.
+4. **Model evaluation and deployment** - evaluating the final model's performance on a test set, deploying the model in a web app, and providing predictions to end-users.
+
+
+
