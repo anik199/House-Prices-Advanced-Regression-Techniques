@@ -14,6 +14,9 @@ The dataset used in this project is the Kaggle House Prices competition dataset,
 - Matplotlib
 - Seaborn
 - Scikit-Learn
+- XGBoost
+- Lightgbm
+- Catboost 
 
 ## Approach
 
@@ -29,20 +32,19 @@ The pipeline includes:
 1. **Data cleaning and pre-processing** - handling missing data, removing outliers, and encoding categorical variables.
 2. **Feature engineering** - creating new features from existing ones, transforming variables to follow a normal distribution, and performing feature scaling.
 3. **Model selection and training** - evaluating several regression models, tuning hyperparameters, and selecting the best performing model.
-4. **Model evaluation and deployment** - evaluating the final model's performance on a test set, deploying the model in a web app, and providing predictions to end-users.
+4. **Model evaluation** - evaluating the final model's performance on a test set.
 
 ## Models Used
 
-- Linear Regression
+- CatBoost Regressor
 - Lasso Regression
-- Ridge Regression
-- Elastic Net Regression
 - XGBoost Regression
+- Lightgbm Regression
+- Gradient Boosting Regressor
 
 ## Evaluation Metrics
 
 - Root Mean Squared Error (RMSE)
-- Mean Absolute Error (MAE)
 
 ## Results
 
@@ -50,7 +52,7 @@ The final model achieved an RMSE score of 0.12764 on the test dataset, which is 
 
 ## Conclusion
 
-- The XGBoost regression model performed the best with an RMSE score of 0.123 and an MAE score of 0.075 on the test set.
+- The ensemble model performed the best with an RMSE score of 0.12764 on the test set.
 - Feature engineering and hyperparameter tuning played an important role in improving the performance of the models.
 - Further improvements could be made by incorporating other regression techniques, ensemble models, or deep learning models.
 
